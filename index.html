@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Widget</title>
+  </head>
+
+  <body>
+    <div class="body">
+      <image src="images/bg-top.svg" alt="imageTop" class="imageTop"></image>
+      <image src="images/bg-bottom.svg" alt="imageTop" class="imageBottom"></image>
+      <div class="titleBox">
+        <div class="title">Our Pricing</div>
+        <div class="switchBox" >
+            <span class="monthly">Monthly</span>
+            <label class="switch">
+              <input type="checkbox" >
+              <span class="slider round" onclick="changeText1()" id="btn"></span>
+          </label>
+        <span class="yearly">Yearly</span>
+        </div>       
+      </div>
+      <div class="mainBox">
+        <div class="div1">
+          <h4>Basic</h4>        
+        <h1 id="price1">£4.99</h1>
+        <hr class="breakLine"></hr>
+        <h4>500GB Storage</h4>
+        <hr class="breakLine"></hr>
+        <h4>2 Users Allowed</h4>
+        <hr class="breakLine"></hr>
+        <h4>Send Up To 3GB</h4>
+        <hr class="breakLine"></hr>
+        <button>Learn More</button>
+      </div>
+        <div class="div2">          
+            <h4>Professional</h4>          
+          <h1 id="price2">£9.99</h1> 
+          <hr class="breakLine"></hr>
+          <h4>1TB Storage</h4>
+          <hr class="breakLine"></hr>
+          <h4>5 Users Allowed</h4>
+          <hr class="breakLine"></hr>
+          <h4>Send Up To 10GB</h4>
+          <hr class="breakLine"></hr>
+          <button>Learn More</button>
+        </div>
+        <div class="div3">
+          <h4>Master</h4>    
+        <h1 id="price3">£14.99</h1>
+        <hr class="breakLine"></hr>
+        <h4>2TB Storage</h4>
+        <hr class="breakLine"></hr>
+        <h4>10 Users Allowed</h4>
+        <hr class="breakLine"></hr>
+        <h4>Send Up To 20GB</h4>
+        <hr class="breakLine"></hr>
+        <button>Learn More</button></div>
+      </div>
+    </div>
+  </body>
+  <script src="function.js"></script>
+
+</html>
